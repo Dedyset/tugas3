@@ -16,3 +16,10 @@ int main () {
 		z = y - x;	
 		cout<<abs (z)<<endl;
 		cout<<"Hasil Positif";
+		}
+	
+	else if (y > x) {
+		z = x - y;
+		cout<<abs (z)<<endl;
+		cout<<"Hasil Positif";
+	}
