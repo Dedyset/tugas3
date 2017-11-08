@@ -28,3 +28,7 @@ cin >> bidang;
 		L = 0.5*a*t;
 		cout << "   Luas Segitiga: "<< L<<endl;
 	}	
+		else{
+		cout<<"Maaf, pilihlah 'P' untuk Persegi panjang dan 'S' untuk Segitiga!"<<endl;
+	}
+}
