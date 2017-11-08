@@ -19,3 +19,12 @@ cin >> bidang;
 		L = p*l;
 		cout << "   Luas persegi panjang : "<< L<<endl;
 	}
+	else if (bidang == 'S' || bidang == 's') {
+		cout << "   Mengitung luas segitiga \n";	
+		cout << "   Masukkan alasnya   : ";
+		cin >> a;
+		cout << "   Masukkan tingginya : ";
+		cin >> t;
+		L = 0.5*a*t;
+		cout << "   Luas Segitiga: "<< L<<endl;
+	}	
