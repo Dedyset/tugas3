@@ -6,7 +6,7 @@ int main()
 {
 	double tinggi, berat, under, over;
 		
-		cout<<"Masukan tinggi badan [cm}: ";cin>>tinggi;
+		cout<<"Masukan tinggi badan [cm]: ";cin>>tinggi;
 	cout<<"Masukan berat badan [kg]: ";cin>>berat;
 	
 	under = tinggi/2.5;
@@ -19,3 +19,9 @@ int main()
 	{
 		cout<<"Normal";
 	}
+		else if(berat>over)
+	{
+		cout<<"Overweight" ;
+	}
+	getch();
+}
